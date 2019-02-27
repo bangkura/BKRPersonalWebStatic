@@ -15,6 +15,8 @@ a:hover {
 }
 
 .title {
+    max-width: 60%;
+    word-break: break-word;
     text-transform: uppercase;
     margin: 1em 0 0 0;
     position: relative;
@@ -22,7 +24,7 @@ a:hover {
     padding: 15px;
     text-align: center;
     font-size: 3em;
-    font-weight: bold;
+    font-weight: 600;
     /*border: white 3px solid;*/
 }
 .title:before, .title:after {
@@ -43,7 +45,7 @@ a:hover {
     right: 100%;
 }
 
-#welcom-text {
+#welcome-text {
     margin-top: calc((100vh - 70px - 15px - 3em)/2);
 }
 
@@ -85,7 +87,6 @@ a:hover {
     height: calc(100vh - 70px);
     text-align: center;
     margin-top: 70px;
-    width: 100%;
     background: url("../img/index_bg.jpg") center no-repeat;
     background-size: cover;
 }
